@@ -9,7 +9,7 @@ function scores(){
    
     let p2 = Math.floor(Math.random()*6+1);
     // changing the dice image as per random generated number
-    var randomImg2 = "img/" + "dice" + p1 + ".png";
+    var randomImg2 = "img/" + "dice" + p2 + ".png";
     var d2 = document.querySelectorAll("img")[1];  
     d2.setAttribute("src", randomImg2);
 
