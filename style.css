@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(66, 62, 62);
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: cadetblue;
+}
+.container{
+    width: 70%;
+    margin: auto;
+    /* margin-top: 5%; */
+    /* border: 1px solid white; */
+}
+.container #result{
+    text-align: center;
+    font-size:12vb;
+    font-style: italic;
+}
+.container .player{
+    width: 50%;
+    float: left;
+    text-align: center;
+    font-style: italic;
+    font-size: 25px;
+    font-weight: 600;
+}
+.container img{
+    width: 150px;
+    height: 150px;
+}
+.roll{
+    width: 70%;
+    margin: 5% 0 0 15%;
+    background: transparent;
+    padding: 10px 0;
+    font-size: 20px;
+    border-radius: 5px;
+    color: cadetblue;
+    border: 2px solid cadetblue;
+    cursor: pointer;
+    font-style: italic;
+}
+footer{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 25%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
